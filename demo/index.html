@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Social - Premium Responsive Admin Template</title>
+<meta name="viewport" content="width=device-width">
+<link href="../assets/css/twitter-bootstrap/bootstrap.css" rel="stylesheet">
+<link href="../assets/css/font-awesome.html" rel="stylesheet">
+<link href="../assets/css/social.css" rel="stylesheet">
+<link href="../assets/css/twitter-bootstrap/bootstrap-responsive.css" rel="stylesheet">
+<style>
+body{overflow:hidden;background:#000;position:relative;color:#FFF;text-shadow:0 -1px 0 #000;}
+header{position:fixed;top:0;left:0;right:0;height:44px;z-index:100;}
+section{position:fixed;top:0px;left:0;right:0;bottom:0;z-index:3;overflow:hidden;}section #wrapper{-webkit-box-shadow:0 0 12px 1px #000;-moz-box-shadow:0 0 12px 1px #000;box-shadow:0 0 12px 1px #000;position:relative;background-color:#FFF;width:100%;height:100%;display:block;margin:0 auto;}section #wrapper iframe{width:100%;height:100%;border:none;margin-top:6px;}#preload{background:url(../../../img/logo-CesarLab-white-24.png) no-repeat -9999px -9999px;}
+</style>
+<!--[if lt IE 9]><script src="/templates/social/assets/js/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<!--[if lte IE 8]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
+
+    <div class="container-fluid">
+    
+        <div class="row-fluid"></div>
+        <div class="row-fluid">
+            <section>
+                <div id="wrapper">
+                    <iframe id="content-iframe" src="dashboard.html"></iframe>
+                </div>
+            </section>
+        </div>
+        <div id="preload"></div>
+    </div>
+<script><!--//--><![CDATA[//><!--
+          function removeFrame() {
+            return top.location.href = document.getElementById("content-iframe").contentWindow.location.href;
+          };
+          function whiteLogo()
+          {
+            document.getElementById("logo").src = "../../../img/logo-CesarLab-white-24.png";
+          }
+          function grayLogo()
+          {
+            document.getElementById("logo").src = "../../../img/logo-CesarLab-gray-24.png";
+          }
+          //--><!]]></script></body>
+
+</html>

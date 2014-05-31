@@ -1,0 +1,8 @@
+<?php
+
+define('YOUR_CONSUMER_KEY', '8m1Yim1FcKcuMfAJX4664g');
+define('YOUR_CONSUMER_SECRET', '5njIWz3UQHDeNHj0YSKPPV1Tpbkb1soEoO0IFJP4tA');
+
+
+
+?>
